@@ -5,14 +5,16 @@
 ## Установка и требования
 Для установки скачайте и распакуйте архив с программой. 
 Создайте файл `.env` и внесите в него свои параметры и данные: 
-`ENGINE=
+`
+ENGINE=
 HOST=
 PORT=
 NAME=
 USER=
 PASSWORD=
 SECRET_KEY=
-DEBUG=false`
+DEBUG=false
+`
 либо отредактируйте список параметров DATABASES в скрипте: 
 `\django-orm-watching-storage\project\settings.py`
 
@@ -24,12 +26,14 @@ DEBUG=false`
 `pip install -r requirements.txt`
 
 либо установите следующие пакеты в ручную:
-`asgiref==3.5.0
+`
+asgiref==3.5.0
 Django==3.2.12
 psycopg2-binary==2.9.3
 pytz==2021.3
 sqlparse==0.4.2
-typing-extensions==4.0.1`
+typing-extensions==4.0.1
+`
 
 ## режим DEBUG
 По умолчанию режим debug выключен, для включения, установите параметр `DEBUG=True` в файле .env или в скрипте: 
