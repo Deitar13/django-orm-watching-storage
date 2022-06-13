@@ -1,4 +1,8 @@
 import os
+import dotenv
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from django.core.management import execute_from_command_line
 
