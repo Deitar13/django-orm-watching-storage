@@ -6,13 +6,13 @@
 Для установки скачайте и распакуйте архив с программой. 
 Создайте файл `.env` и внесите в него свои параметры и данные: 
 ```
-ENGINE=
-HOST=
-PORT=
-NAME=
-USER=
-PASSWORD=
-SECRET_KEY=
+DB_ENGINE=
+DB_HOST=
+DB_PORT=
+DB_NAME=
+DB_USER=
+DB_PASSWORD=
+DB_SECRET_KEY=
 DEBUG=false
 ```
 либо отредактируйте список параметров DATABASES в скрипте: 

@@ -1,14 +1,4 @@
-import os
-import datetime
-import django
-
-from datetime import datetime
-from datetime import timedelta
-from django.db import models
-from django.utils import timezone
-
-from datacenter.models import Passcard
-from datacenter.models import Visit
+from datacenter.models import Visit, Passcard
 from django.shortcuts import render
 
 
