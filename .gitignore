@@ -135,4 +135,5 @@ pyproject.toml
 poetry.lock
 
 # UMP
+/.upm
 .upm
